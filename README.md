@@ -1,11 +1,11 @@
 
 # On-Demand Data Integration Tool (ODIN)
-On-demand data integration (ODIN) is responsible of providing the other components with the necessary information to describe and model raw data, as well as keeping the footprint about data usage. With this purpose, the MDM contains all the metadata artifacts needed to deal with data governance and assist data exploitation.
+On-demand data integration (ODIN) is responsible of providing the other components with the necessary information to describe and model raw data, as well as keeping the footprint about data usage. With this purpose, the ODIN contains all the metadata artifacts needed to deal with data governance and assist data exploitation.
 
-The main artifact currently managed by the MDM is the Big Data Integration (BDI) ontology. The introduced ontology builds upon known ideas from data integration research and includes two layers in order to provide analysts with an integrated and format-agnostic view of the sources. We exploit this structure to handle the evolution of source schema via semi-automated transformations on the ontology upon service releases. Our approach is based on well known Semantic Web technologies, specifically RDF, which contrary to other schema definition languages (e.g., XSD) enable (a) reutilization of existing vocabularies, (b) self-description of data, and (c) publishing such data on the web.
+The main artifact currently managed by the ODIN is the Big Data Integration (BDI) ontology. The introduced ontology builds upon known ideas from data integration research and includes two layers in order to provide analysts with an integrated and format-agnostic view of the sources. We exploit this structure to handle the evolution of source schema via semi-automated transformations on the ontology upon service releases. Our approach is based on well known Semantic Web technologies, specifically RDF, which contrary to other schema definition languages (e.g., XSD) enable (a) reutilization of existing vocabularies, (b) self-description of data, and (c) publishing such data on the web.
 
 ## Subcomponents
-The MDM is composed of two independent subcomponents:
+The ODIN is composed of two independent subcomponents:
 - Metadata Frontend  
 - Metadata Storage
 
